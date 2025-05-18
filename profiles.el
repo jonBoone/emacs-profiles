@@ -1,5 +1,6 @@
 ;; define custom profiles
-(("default"        . ((user-emacs-directory . "~/.config/emacs/scimax")))
+(("default"        . ((user-emacs-directory . "~/.config/emacs/scimax")
+		      (env                  . ("SCIMAXDIR" . "~/.scimax.d"))))
  ("emacs-solo"     . ((user-emacs-directory . "~/.config/emacs/emacs-solo"))))
  ;; ("spacemacs"      . ((user-emacs-directory . "~/.config/emacs/spacemacs")
  ;;                      (env                  . (("SPACEMACSDIR" . "~/.spacemacs.d")))))
